@@ -96,12 +96,15 @@ console.log(`Висота: ${modalH} Ширина: ${modalW}`);
 
 btnOpen.addEventListener('click', function () {
     popupBg.classList.add('open-poput');
+    modal.classList.add('open-poput');
 });
 btnClose.addEventListener('click', function () {
     popupBg.classList.remove('open-poput');
+    modal.classList.remove('open-poput');
 });
 popupBg.addEventListener('click', function () {
     popupBg.classList.remove('open-poput');
+    modal.classList.remove('open-poput');
 });
 let a = window.innerWidth;
 console.log(a);
