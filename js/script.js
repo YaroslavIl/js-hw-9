@@ -64,7 +64,7 @@ setInterval(test, 3000);
     
     
     let counter = setInterval(function () {
-        // aTime--;
+        aTime--;
         divTime.innerText = aTime;
         if (aTime === 0) {
             alert("Ви дочекались знижок !!!!");
